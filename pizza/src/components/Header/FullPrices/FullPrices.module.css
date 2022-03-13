@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  left: 1147px;
+  top: 44px;
+
+  background: #fe5f1e;
+  border-radius: 30px;
+}
+.divider {
+  position: absolute;
+  width: 1px;
+  height: 25px;
+  left: 77px;
+  top: 11px;
+
+  background: rgba(255, 255, 255, 0.25);
+}
+.icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 86px;
+  top: 16px;
+}
+.prices {
+  position: absolute;
+  width: 43px;
+  height: 19px;
+  left: 57px;
+  top: 14px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
