@@ -1,25 +1,43 @@
-.container{
-    font-family: 'Lato', sans-serif;
+.container {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  width: 316px;
+height: 48px;
+left: 122px;
+top: 92px;
 }
-.title{
-    font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    
-    color: #181818;  
+.title {
+  position: absolute;
+  width: 154px;
+  height: 29px;
+  left: 50px;
+  top: -15px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  color: #181818;
 }
-.slogan{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    
-    color: #7B7B7B;  
+.slogan {
+  position: absolute;
+  width: 261px;
+  height: 19px;
+  left: 50px;
+  top: 27px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #7b7b7b;
 }
-.img{
-    width: 38px;
-    height: 38px;
+.img {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 2px;
+  top: 6px;
 }
