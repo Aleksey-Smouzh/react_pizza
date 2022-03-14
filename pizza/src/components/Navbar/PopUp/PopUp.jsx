@@ -1,8 +1,8 @@
 import React from 'react'
-
+import popUp from './PopUp.module.css'
 function PopUp() {
   return (
-    <div>PopUp</div>
+    <div className={popUp.container}>PopUp</div>
   )
 }
 

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import grill from "./Grill.module.css"
 function Grill() {
   return (
-    <div>Grill</div>
+    <div className={grill.container}>Grill</div>
   )
 }
 

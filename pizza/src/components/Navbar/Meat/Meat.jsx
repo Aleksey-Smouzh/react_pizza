@@ -1,8 +1,8 @@
 import React from 'react'
-
+import meat from "./Meat.module.css"
 function Meat() {
   return (
-    <div>Meat</div>
+    <div className={meat.container}>Meat</div>
   )
 }
 

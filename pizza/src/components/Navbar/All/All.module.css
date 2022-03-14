@@ -1,0 +1,14 @@
+.container {
+  grid-area: a;
+}
+.title {
+  margin-left: 55px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}

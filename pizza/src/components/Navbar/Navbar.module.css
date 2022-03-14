@@ -1,3 +1,40 @@
-.container{
-   
+.container {
+  width: 1225px;
+  height: 46px;
+  display: grid;
+  margin-top: 40px;
+  margin-left: 55px;
+  gap: 9px;
+  grid-template-areas: "a m v g s c p";
+  grid-template-columns: [a] 82px [m] 132px [v] 195px [g] 107px [s] 120px [c] 145px [p];
+}
+.all {
+  grid-area: a;
+  background: #f9f9f9;
+  border-radius: 30px;
+}
+.meat {
+  grid-area: m;
+  background: #f9f9f9;
+  border-radius: 30px;
+}
+.vegan {
+  grid-area: v;
+  background: #f9f9f9;
+  border-radius: 30px;
+}
+.grill {
+  grid-area: g;
+  background: #f9f9f9;
+  border-radius: 30px;
+}
+.spicy {
+  grid-area: s;
+  background: #f9f9f9;
+  border-radius: 30px;
+}
+.closed {
+  grid-area: c;
+  background: #f9f9f9;
+  border-radius: 30px;
 }

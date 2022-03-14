@@ -1,9 +1,9 @@
 import React from 'react'
-
-function Spisy() {
+import spicy from './Spicy.module.css'
+function Spicy() {
   return (
-    <div>Spisy</div>
+    <div className={spicy.container}>Spicy</div>
   )
 }
 
-export default Spisy
+export default Spicy
