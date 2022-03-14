@@ -1,8 +1,12 @@
 import React from 'react'
-
+import all from './All.module.css'
 function All() {
   return (
-    <div>All</div>
+    <div className={all.container}> All
+
+
+
+    </div>
   )
 }
 
