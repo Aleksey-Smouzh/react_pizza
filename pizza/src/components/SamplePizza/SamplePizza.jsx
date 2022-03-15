@@ -4,7 +4,7 @@ import image from '.././img/cheeseburger.svg'
 
 function SamplePizza(props) {
   return (
-      
+
     <div className={sample.container}>
       <img className={sample.image} src={image} alt="Cheeseburger" /> 
       <h2 className={sample.title}>pizza</h2>
