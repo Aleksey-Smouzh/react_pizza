@@ -1,3 +1,47 @@
-.container{
-    grid-area: v;
+.container {
+  grid-area: v;
+}
+.title {
+  margin-left: 55px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "o t th f"
+    "fi s se e";
+  grid-template-columns: auto;
+  grid-template-rows: 460px 460px;
+}
+
+.blok1 {
+  grid-area: o;
+}
+.blok2 {
+  grid-area: t;
+}
+.blok3 {
+  grid-area: th;
+}
+.blok4 {
+  grid-area: f;
+}
+.blok5 {
+  grid-area: fi;
+}
+.blok6 {
+  grid-area: s;
+}
+.blok7 {
+  grid-area: se;
+}
+.blok8 {
+  grid-area: e;
 }
