@@ -1,5 +1,5 @@
 .container {
-  grid-area: a;
+ 
 }
 .title {
   margin-left: 55px;
@@ -12,37 +12,36 @@
 
   color: #000000;
 }
-.wrapper{
-    display: grid;
-    grid-template-areas: 
+.wrapper {
+  display: grid;
+  grid-template-areas:
     "o t th f"
     "fi s se e";
-    grid-template-columns: auto;
-    grid-template-rows: 460px 460px ;
+  grid-template-columns: auto;
+  grid-template-rows: 460px 460px;
 }
 
-
-.blok1{
-grid-area: o;
+.blok1 {
+  grid-area: o;
 }
-.blok2{
-grid-area: t;
+.blok2 {
+  grid-area: t;
 }
-.blok3{
-grid-area: th;
+.blok3 {
+  grid-area: th;
 }
-.blok4{
-grid-area: f;
+.blok4 {
+  grid-area: f;
 }
-.blok5{
-grid-area: fi;
+.blok5 {
+  grid-area: fi;
 }
-.blok6{
-grid-area: s;
+.blok6 {
+  grid-area: s;
 }
-.blok7{
-grid-area: se;
+.blok7 {
+  grid-area: se;
 }
-.blok8{
-grid-area: e;
+.blok8 {
+  grid-area: e;
 }

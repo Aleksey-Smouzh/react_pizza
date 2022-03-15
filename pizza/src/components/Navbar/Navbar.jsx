@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import navbar from "./Navbar.module.css";
 
 function Navbar() {
-
   return (
     <div className={navbar.container}>
       <button className={navbar.all}>
