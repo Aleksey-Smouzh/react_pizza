@@ -10,12 +10,14 @@ import Grill from "./components/Navbar/Grill/Grill";
 import Meat from "./components/Navbar/Meat/Meat";
 import Spicy from "./components/Navbar/Spicy/Spicy";
 
+
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Header />
         <Navbar />
+        
         <Routes>
           <Route path="/all" element={<All />}>
             {" "}
