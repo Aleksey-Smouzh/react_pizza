@@ -23,6 +23,9 @@ function Navbar() {
       <button className={navbar.vegan}>
         <NavLink to="/vegan">Вегетарианская</NavLink>
       </button>
+      <button className={navbar}>
+        <NavLink to="/main">test</NavLink>
+      </button>
     </div>
   );
 }

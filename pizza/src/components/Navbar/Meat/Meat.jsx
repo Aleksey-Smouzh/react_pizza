@@ -1,7 +1,7 @@
-import React from "react";
+import React, {useState}from "react";
 import meat from "./Meat.module.css";
 import SamplePizza from "../../SamplePizza/SamplePizza";
-function Meat() {
+function Meat(props) {
   return (
     <div className={meat.container}>
       <h1 className={meat.title}>Мясная</h1>
@@ -10,7 +10,7 @@ function Meat() {
           <SamplePizza />
         </div>
         <div className={meat.blok2}>
-          <SamplePizza />
+          <SamplePizza/>
         </div>
         <div className={meat.blok3}>
           <SamplePizza />

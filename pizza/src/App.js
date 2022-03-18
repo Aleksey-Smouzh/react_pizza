@@ -9,15 +9,15 @@ import Closed from "./components/Navbar/Closed/Closed";
 import Grill from "./components/Navbar/Grill/Grill";
 import Meat from "./components/Navbar/Meat/Meat";
 import Spicy from "./components/Navbar/Spicy/Spicy";
+import MainPage from "./components/MainPage/MainPage";
 
-
-function App() {
+function App(props) {
   return (
     <div className="App">
       <BrowserRouter>
         <Header />
         <Navbar />
-        
+
         <Routes>
           <Route path="/all" element={<All />}>
             {" "}
@@ -34,9 +34,12 @@ function App() {
           <Route path="/spicy" element={<Spicy />}>
             {" "}
           </Route>
-          <Route path="/vegan" element={<Vegan />}>
-            {" "}
-          </Route>
+          <Route path="/vegan" element={<Vegan />}>{" "}</Route>
+          <Route
+            path="/main"
+            element={<MainPage state={props.state.meatData}/>}
+
+          >{" "}</Route>
         </Routes>
       </BrowserRouter>
     </div>
